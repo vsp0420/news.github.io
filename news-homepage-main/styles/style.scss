@@ -1,0 +1,16 @@
+@import './header';
+@import './main-container';
+@font-face {
+    font-family: 'Inter';
+    src: url(..//assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+body
+{   
+    margin: 15px;
+    padding: 0; 
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
